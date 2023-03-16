@@ -37,10 +37,12 @@ launch_gazebo()
 }
 
 launch_rviz(){
+    source devel/setup.bash
     roslaunch leo_erc_viz rviz.launch
 }
 
 launch_teleop(){
+    source devel/setup.bash
     rosrun leo_erc_teleop key_teleop
 }
 
@@ -80,4 +82,3 @@ elif [ "$TELEOP" == "true" ]; then
 else 
     print_help
 fi
-
