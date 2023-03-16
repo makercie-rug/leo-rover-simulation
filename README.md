@@ -41,7 +41,7 @@ Options:
   Run rViz simulation of LEO Rover.
 Note that Gazebo needs to be already running for rVziz to work correctly.
 
--tp or --teleop
+-t or --teleop
   Run tele-operation of LEO Rover using keyboard
 ```
 
